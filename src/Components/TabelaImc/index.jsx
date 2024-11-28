@@ -1,4 +1,4 @@
-import style from "./tabelaIMC.module.css"
+import style from "./tabelaImc.module.css"
 import "../../global.css"
 
 const tabelaImc = () => {
