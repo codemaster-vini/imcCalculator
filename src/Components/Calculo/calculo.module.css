@@ -1,0 +1,118 @@
+.calculo{
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.lista{
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    gap: 5%;
+}
+
+.listaItem{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.listaItemLabel{
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input{
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+}
+
+.input:focus{
+    outline-width: 0;
+}
+
+.button{
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: forestgreen;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: limegreen;
+}
+
+.imc{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.magro{
+    font-weight: bold;
+    color: rgba(173, 216, 230, 0.8);
+}
+
+.normal{
+    font-weight: bold;
+    color: rgba(144, 238, 144, 0.8);
+}
+
+.sobrepeso{
+    font-weight: bold;
+    color: rgba(231, 231, 132, 0.8);
+}
+
+.obesidade1{
+    font-weight: bold;
+    color: rgba(255, 255, 0, 0.8);
+}
+
+.obesidade2{
+    font-weight: bold;
+    color: rgba(255, 166, 0, 0.8);
+}
+
+.obesidade3{
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 767px) {
+    .h1{
+        font-size: 24px;
+    }
+
+    .listaItemLabel{
+        font-size: 16px;
+    }
+
+    .lista{
+        display: block;
+    }
+}
